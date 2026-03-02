@@ -1,5 +1,5 @@
 ﻿streamlit==1.29.0
-openai==1.104.0
+openai==1.104.2
 langchain==0.3.27
 langchain-openai==0.3.35
 langchain-community==0.3.31
