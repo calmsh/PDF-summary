@@ -21,12 +21,9 @@
 
 ```bash
 # 1. 저장소 클론
-git clone https://github.com/MDA04systack/PaperBrief.git
+git clone https://github.com/calmsh/PDF-summary
 
-# 2. 해당 디렉토리로 이동
-cd PaperBrief/pdfsumbot
-
-# 3. 가상환경 생성 및 활성화 (권장)
+# 2. 가상환경 생성 및 활성화 (권장)
 python -m venv venv
 
 # Windows (cmd):
@@ -36,10 +33,10 @@ venv\Scripts\Activate.ps1
 # Mac / Linux:
 source venv/bin/activate
 
-# 4. 의존 패키지 일괄 설치
+# 3. 의존 패키지 일괄 설치
 pip install -r requirements.txt
 
-# 5. 앱 실행
+# 4. 앱 실행
 streamlit run make_pdf_summary_site.py
 ```
 

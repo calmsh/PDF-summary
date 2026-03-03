@@ -36,9 +36,9 @@ def build_vector_store(text: str, api_key: str):
 
 
 def main():
-    # 페이지 기본 설정 (탭 제목 및 아이콘)
-    st.set_page_config(page_title="전성현의 논문 초록 요약기", page_icon="�")
-    st.title("� 전성현의 논문 초록 요약 서비스")
+    # 페이지 기본 설정 (탭 제목)
+    st.set_page_config(page_title="전성현의 논문 요약")
+    st.title("전성현의 논문 요약 서비스")
     st.caption("PDF를 업로드하면 AI가 핵심 내용을 자동으로 요약해드립니다.")
     st.divider()
 
